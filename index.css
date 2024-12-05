@@ -2,7 +2,7 @@ body {
     background-color: beige;
 }
 header {
-    background-color: orange;
+    background: linear-gradient(to right, orange, rgb(242, 185, 79) );
     height: 80px; 
 }
 h1, h2 {
@@ -12,9 +12,15 @@ h1, h2 {
     color: orange;
 }
 button {
+    
     background-color:orange;
     height: 75px;
     border-color: orange;
     border: none;
     outline:none;
+}
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
