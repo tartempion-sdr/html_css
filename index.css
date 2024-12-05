@@ -3,4 +3,18 @@ body {
 }
 header {
     background-color: orange;
+    height: 80px; 
+}
+h1, h2 {
+    text-align: center;
+}
+#p1 {
+    color: orange;
+}
+button {
+    background-color:orange;
+    height: 75px;
+    border-color: orange;
+    border: none;
+    outline:none;
 }
