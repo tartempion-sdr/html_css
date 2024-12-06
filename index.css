@@ -26,12 +26,17 @@ h1, h2 {
 header button {
     
     background: transparent;
-    height: 75px;
+    height: 78px;
     border-color: orange;
     border: none;
     outline:none;
+    cursor: pointer;
 }
-button a {
+header button:hover { 
+    
+    background: rgb(158, 108, 15);
+}
+button {
     color: white;
     text-decoration: none;
     font-size: 17px;
