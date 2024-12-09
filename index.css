@@ -3,7 +3,7 @@ body {
 }
 
 
-header {
+header.header1 {
     display: flex;
     background: linear-gradient(to right,rgb(158, 108, 15), orange);
     height: 80px; 
@@ -11,6 +11,7 @@ header {
 header .container {
     margin-left: auto;
 }
+
 header #b1 {
     background: linear-gradient(to right, rgb(234, 76, 76), rgb(224, 130, 146));
     height: 30px;
@@ -41,4 +42,6 @@ button {
     text-decoration: none;
     font-size: 17px;
 }
-
+header.header2 {
+    background-color: blue !important;
+}
