@@ -58,13 +58,11 @@ header.header2 {
     padding-left: 50px;
     padding-right: 50px;
 }
-label {
-    color: white;
-}
+
 #b2 {
     background: linear-gradient(to right, rgb(234, 76, 76), rgb(224, 130, 146));
     height: 30px;
-    margin-top: 25px; 
+    
     margin-bottom: 10px;
     
 }
@@ -81,11 +79,16 @@ label {
 
 label { 
     font-size: 16px; 
-    color: #333; 
+    color: white; 
     margin-bottom: 5px; /* Espace entre le label et le select */ 
 } 
 
 select { 
+    justify-items : center;
+    border-color: rgb(68, 70, 106);
+    border-bottom-color: white;
+    color: white; 
+    background-color: rgb(68, 70, 106);
     font-size: 16px; 
     padding: 5px; 
     margin-top: 5px; /* Espace entre le select et le label */ 
